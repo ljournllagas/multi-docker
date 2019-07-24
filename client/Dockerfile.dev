@@ -1,7 +1,7 @@
 FROM node:alpine
 
-ENV HTTP_PROXY "http://rbcproxy.robinsonsbank.com.ph:80"
-ENV HTTPS_PROXY "http://rbcproxy.robinsonsbank.com.ph:80"
+#ENV HTTP_PROXY "http://rbcproxy.robinsonsbank.com.ph:80"
+#ENV HTTPS_PROXY "http://rbcproxy.robinsonsbank.com.ph:80"
 
 WORKDIR '/app'
 
